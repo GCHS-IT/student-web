@@ -4,11 +4,27 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="GCHS Student Sites">
 	<main class="h-full flex flex-col">
-		<header class="text-3xl md:text-5xl lg:text-7xl text-center pt-4 text-green-600">
+		<header
+			class="text-3xl md:text-5xl lg:text-7xl text-center pt-4 text-green-600 font-warhawk"
+		>
 			GCHS Student Sites
 		</header>
 		<div class="inline-flex self-center items-center h-full">
-			<div class="md:w-[50vw] h-[50vh] w-screen border-4 border-green-600">Hello</div>
+			<div
+				class="md:w-[50vw] h-[50vh] w-screen border-4 border-green-600"
+			>
+				Hello
+			</div>
 		</div>
 	</main>
 </Layout>
+
+<style>
+	@font-face {
+		font-family: "warhawk";
+		src: url("/fonts/BunkenTechSansProWide-UlBdIt.ttf") format("truetype");
+		font-weight: 800;
+		font-style: italic;
+		font-display: swap;
+	}
+</style>
