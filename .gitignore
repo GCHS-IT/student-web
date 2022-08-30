@@ -2,6 +2,8 @@
 dist/
 .output/
 
+sites/
+
 # dependencies
 node_modules/
 
