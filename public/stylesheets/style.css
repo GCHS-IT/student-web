@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Bunken Tech Sans Pro Wide Ul Bd Lt";
+  src: url("/fonts/BunkenTechSansProWide-UlBdIt.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Franklin Gothic";
+  src: url("/fonts/FranklinGothic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --great-crossing-green: #00843D;
+  --great-crossing-blue: #002855;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: "Franklin Gothic", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Bunken Tech Sans Pro Wide Ul Bd Lt", Arial, Helvetica, sans-serif;
+  color: var(--great-crossing-green);
+  text-align: center;
+}
+
+@media only screen and (min-width: 425px) {
+  #list {
+    width: 75vw !important;
+    border: 4px solid var(--great-crossing-green);
+  }
+}
+
+#list {
+  width: 100vw;
+  height: 75vh;
+
+  border-top: 4px solid var(--great-crossing-green);
+  border-bottom: 4px solid var(--great-crossing-green);;
+
+  align-self: center;
+  padding: 1rem;
+}
+
+a {
+  color: var(--great-crossing-blue);
+  text-decoration: none;
+}
