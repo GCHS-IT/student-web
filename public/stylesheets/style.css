@@ -44,7 +44,9 @@ h1 {
 
 #list {
   width: 100vw;
-  height: 75vh;
+  min-height: 75vh;
+
+  margin-bottom: 2em;
 
   border-top: 4px solid var(--great-crossing-green);
   border-bottom: 4px solid var(--great-crossing-green);;
@@ -56,4 +58,13 @@ h1 {
 a {
   color: var(--great-crossing-blue);
   text-decoration: none;
+}
+
+.hour h3 {
+  border-bottom: 0.2em solid black;
+}
+
+.hour ul, .hour li {
+  display: inline;
+  margin-right: 1.25em;
 }
