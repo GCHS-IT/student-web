@@ -62,6 +62,7 @@ a {
 
 .hour h3 {
   border-bottom: 0.2em solid black;
+  padding-left: 1ch;
 }
 
 .hour ul, .hour li {
